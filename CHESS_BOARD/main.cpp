@@ -1,4 +1,4 @@
-#include <iostream>;
+ï»¿#include <iostream>;
 using namespace std;
 
 #define CHESS_BOARD1
@@ -18,7 +18,7 @@ void main()
 #ifndef CHESS_BOARD1
 	setlocale(LC_ALL, "");
 	int n;
-	cout << "Ââåäèòå ðàçìåð äîñêè: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸: "; cin >> n;
 	setlocale(LC_ALL, "C");
 	n++;
 	for (int i = 0; i <= n; i++)
@@ -45,11 +45,11 @@ void main()
 
 	setlocale(LC_ALL, "");
 	int n, size;
-	cout << "Ââåäèòå ðàçìåð äîñêè: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸: "; cin >> n;
 	setlocale(LC_ALL, "C");
-	for (int i = 0; i < n; i++) // âñÿ äîñêà
+	for (int i = 0; i < n; i++) // Ð²ÑÑ Ð´Ð¾ÑÐºÐ°
 	{
-		for (int j = 0; j < n; j++)  //ðÿä
+		for (int j = 0; j < n; j++)  //Ñ€ÑÐ´
 		{
 			if ((i + j) % 2 == 0)
 			{
